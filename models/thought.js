@@ -29,4 +29,4 @@ const thoughtSchema = new mongoose.Schema({
 );
 
 const thought = mongoose.model('thought', thoughtSchema);
-MediaSourceHandle.exports = thought;
+module.exports = thought;
